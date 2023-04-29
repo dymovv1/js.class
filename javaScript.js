@@ -103,7 +103,7 @@ class EmpTable {
     }
   
     getHtml() {
-      let tableBody = document.querySelector('#employee-table tbody');
+      const tableBody = document.querySelector('#employee-table tbody');
   
       tableBody.innerHTML = '';
   
